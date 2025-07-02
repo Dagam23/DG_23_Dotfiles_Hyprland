@@ -1,4 +1,4 @@
-## Requiriments
+# Requirements
 - Sway
 - Waypaper
 - Firefox # This is remplazed for your browser
