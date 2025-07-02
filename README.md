@@ -12,5 +12,6 @@ To use these configurations just search for your configurations and replace them
 ## Image Preview
 ![1751487048_grim](https://github.com/user-attachments/assets/142539e7-42fa-4b08-9b62-5585f10e0568)
 ## Video Preview
+[video.webm](https://github.com/user-attachments/assets/e9385092-a9bc-493d-bb8c-4478d0281a42)
 
-[video.webm](https://github.com/user-attachments/assets/d6edd1d2-d3da-4ad5-ba85-b9be5f7ca091)
+
