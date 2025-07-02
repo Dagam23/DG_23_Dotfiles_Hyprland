@@ -1,0 +1,171 @@
+{
+	"layer":"top",
+    	"position": "top", 
+	"margin_top":10,
+    	"margin_bottom":10,
+    	"width": 1800, 
+
+    	"modules-left": [
+	    	"custom/launcher",
+		"custom/browser",
+		"custom/files",
+		"custom/terminal"
+    	],
+    	"modules-center": [
+		"sway/workspaces"
+    	],
+    	"modules-right":[
+		"tray",
+		"backlight",
+        	"pulseaudio",
+        	"network",
+		"custom/bluetooth",
+        	"memory",
+        	"battery",
+        	"clock",
+		"custom/notification"
+    	],
+    	"custom/launcher":{
+		"tooltip": false,
+	 	"format": "",
+	     	"on-click":"$HOME/.config/rofi/launchers/type-5/launcher.sh",
+		"on-click-right": "killall rofi"
+    	},
+
+  	"custom/browser":{
+		"tooltip": false,
+	 	"format": "󰈹",
+	     	"on-click":"firefox"
+    	},
+
+ 	"custom/files":{
+		"tooltip": false,
+	 	"format": "",
+	     	"on-click":"cosmic-files"
+    	},
+
+ 	"custom/terminal":{
+		"tooltip": false,
+	 	"format": "",
+	     	"on-click":"kitty"
+    	},
+
+    	"sway/workspaces": {
+         	"disable-scroll": true,
+         	"all-outputs": true,
+         	"warp-on-scroll": false,
+	 	"on-click":"activate",
+	 	"active-only":false,
+	 	"persistent-workspaces": {
+             		"1": [],
+             		"2": [],
+             		"3": [],
+             		"4": [],
+             		"5": [],
+             		"6": []
+	 	},
+	 	"format" : "{icon}",
+         	"format-icons": {
+	     		"active"     : "<span font='12'>󱦈</span>", 
+			"focused"    : "<span font='12'>󱦈</span>",
+	     		"empty"      : "<span font='10'>󱦇</span>",
+	     		"default" : "<span font='10'>󱦇</span>"
+         	}
+	},
+	"pulseaudio" : {
+		"tooltip": false,
+        	"format": "{volume} {icon} {format_source}",
+		"scroll-step": 5,
+        	"format-muted": "<span color='#ff4d4d'></span> {format_source}",
+        	"format-source": "<span color='#97ff8a'></span>",
+        	"format-source-muted": "<span color='#ff4d4d'></span>",
+		"on-click":"pavucontrol",
+        	"format-icons": {
+			"headphone": " ",
+            		"default": ["<span color='#97ff8a'></span>",
+				"<span color='#97ff8a'></span>",
+				"<span color='#97ff8a'></span>"]
+        			}
+	},
+	"network" : {
+		"format-wifi": "<span color='#9671b8'></span>",
+		"tooltip-format": "{essid} ({signalStrength}%)",
+		"format-linked": "{ifname} (No IP) ",
+		"format-disconnected": "<span color='#9671b8'>󱚵</span>",
+		"on-click":"nm-connection-editor"
+	},
+
+	"memory": {
+		"tooltip": false,
+        	"interval": 10,
+        	"format": "{used}GiB <span color='#64ad73'> </span>",
+        	"max-length": 10
+    	},
+
+    	"battery": {
+		"tooltip": false,
+        	"states": {
+            		"good": 95,
+            		"warning": 30,
+            		"critical": 15
+         		},
+		"interval": 10,
+        	"format": "{capacity} {icon}",
+        	"format-charging": "{capacity} <span color='#00ff24'>󰂄</span>",
+        	"format-alt": "{time} {icon}",
+         	"format-full": "{capacity} <span color='#53bcbe'></span>",
+        	"format-icons": [
+				"<span color='#ffec00'>󰁺</span>",
+				"<span color='#ffec01'>󰁼</span>",
+				"<span color='#a2ff00'>󰁾</span>",
+				"<span color='#00ff24'>󱟢</span>"
+				]
+    	},
+
+	"clock": {
+		"tooltip": false,
+		"format-alt": "{:%Y-%m-%d}"
+    	},
+
+	"tray": {
+        	"icon-size": 21,
+		"spacing": 10
+	},
+
+	"backlight" :{
+		"tooltip": false,
+        	"format": "{percent} {icon}",
+		"scroll-step": 5,
+        	"format-icons": [
+				"<span color='#7c9802'>󰃜</span>",
+				"<span color='#b3d500'>󰃛</span>",
+				"<span color='#d6ff00'>󰃚</span>"
+				]
+	},
+
+	"custom/bluetooth" : {
+		"tooltip": false,
+        	"format": "<span color='#51dbf7'></span>",
+		"on-click":"blueman-manager"
+	},
+	"custom/notification": {
+    		"tooltip": false,
+    		"format": "{icon}",
+    		"format-icons": {
+      		"notification": "<span foreground='red'><sup></sup></span>",
+      		"none": "",
+      		"dnd-notification": "<span foreground='red'><sup></sup></span>",
+      		"dnd-none": "",
+      		"inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      		"inhibited-none": "",
+      		"dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      		"dnd-inhibited-none": ""
+				},
+    		"return-type": "json",
+    		"exec-if": "which swaync-client",
+    		"exec": "swaync-client -swb",
+    		"on-click": "swaync-client -t -sw",
+    		"on-click-right": "swaync-client -d -sw",
+    		"escape": true
+  	}
+}     
