@@ -50,6 +50,8 @@
 	     	"on-click":"kitty"
     	},
 
+	// In this part change sway for hyprland only is necesary
+
     	"sway/workspaces": {
          	"disable-scroll": true,
          	"all-outputs": true,
