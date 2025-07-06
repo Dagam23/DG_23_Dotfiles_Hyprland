@@ -1,5 +1,5 @@
 # Requirements
-- Sway
+- Sway / Hyprland
 - Waypaper
 - Firefox # This is remplazed for your browser
 - Cosmic Files # This is remplazed for your files
@@ -7,6 +7,8 @@
 - Jet Brains Mono
 - Nerd Fonts
 - Swww
+- Grim, Slurp
+- Swaync
 # Use
 To use these configurations just search for your configurations and replace them with the files found in the git hub.
 # View
