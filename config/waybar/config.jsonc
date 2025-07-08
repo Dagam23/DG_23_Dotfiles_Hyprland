@@ -9,10 +9,11 @@
 	    	"custom/launcher",
 		"custom/browser",
 		"custom/files",
-		"custom/terminal"
+		"custom/terminal",
+		"custom/notes"
     	],
     	"modules-center": [
-		"sway/workspaces"
+		"hyprland/workspaces"
     	],
     	"modules-right":[
 		"tray",
@@ -41,7 +42,7 @@
  	"custom/files":{
 		"tooltip": false,
 	 	"format": "",
-	     	"on-click":"cosmic-files"
+	     	"on-click":"nautilus"
     	},
 
  	"custom/terminal":{
@@ -52,7 +53,7 @@
 
 	// In this part change sway for hyprland only is necesary
 
-    	"sway/workspaces": {
+    	"hyprland/workspaces": {
          	"disable-scroll": true,
          	"all-outputs": true,
          	"warp-on-scroll": false,
@@ -68,10 +69,9 @@
 	 	},
 	 	"format" : "{icon}",
          	"format-icons": {
-	     		"active"     : "<span font='12'>󱦈</span>", 
-			"focused"    : "<span font='12'>󱦈</span>",
-	     		"empty"      : "<span font='10'>󱦇</span>",
-	     		"default" : "<span font='10'>󱦇</span>"
+	     		"active"     : "<span font='12'>󰮯</span>", 
+			"persistent"    : "<span font='10'>󱙝</span>",
+	     		"empty"      : "<span font='10'>󱙝</span>"
          	}
 	},
 	"pulseaudio" : {
@@ -94,7 +94,8 @@
 		"tooltip-format": "{essid} ({signalStrength}%)",
 		"format-linked": "{ifname} (No IP) ",
 		"format-disconnected": "<span color='#9671b8'>󱚵</span>",
-		"on-click":"nm-connection-editor"
+		"on-click":"nm-applet",
+		"on-click-right":"killall nm-applet"
 	},
 
 	"memory": {
@@ -115,7 +116,7 @@
         	"format": "{capacity} {icon}",
         	"format-charging": "{capacity} <span color='#00ff24'>󰂄</span>",
         	"format-alt": "{time} {icon}",
-         	"format-full": "{capacity} <span color='#53bcbe'></span>",
+         	"format-plugged": "{capacity} <span color='#53bcbe'></span>",
         	"format-icons": [
 				"<span color='#ffec00'>󰁺</span>",
 				"<span color='#ffec01'>󰁼</span>",
@@ -130,7 +131,7 @@
     	},
 
 	"tray": {
-        	"icon-size": 21,
+        	"icon-size": 20,
 		"spacing": 10
 	},
 
@@ -169,5 +170,11 @@
     		"on-click": "swaync-client -t -sw",
     		"on-click-right": "swaync-client -d -sw",
     		"escape": true
-  	}
+  	},
+
+	"custom/notes" : {
+		"tooltip": false,
+	 	"format": "󱞂",
+	     	"on-click":"flatpak run com.vixalien.sticky"
+	}
 }     
