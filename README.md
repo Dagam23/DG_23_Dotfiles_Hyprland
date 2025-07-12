@@ -30,7 +30,7 @@ git clone https://github.com/Dagam23/DG_23_Dotfiles_Hyprland
 ```bash
 cd DG_23_Dotfiles_Hyprland/config
 chmod +x setup.sh
-.setup.sh
+./setup.sh
 
 ```
 - Reboot  
