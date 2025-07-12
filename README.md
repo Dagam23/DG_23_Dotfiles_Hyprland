@@ -1,6 +1,15 @@
 # IMPORTANT  
 FOR THIS MOMENT THE SCRIPT IS ONLY AVALAIBLE ON FEDORA
 
+## View
+
+### Image Preview
+![1751487048_grim](https://github.com/user-attachments/assets/142539e7-42fa-4b08-9b62-5585f10e0568)
+
+### Video Preview
+
+[video.webm](https://github.com/user-attachments/assets/e9385092-a9bc-493d-bb8c-4478d0281a42)
+
 ## Requirements
 - Hyprland
 - git
@@ -37,13 +46,5 @@ chmod +x setup.sh
 
 Be Happy :)  
 
-## View
-
-### Image Preview
-![1751487048_grim](https://github.com/user-attachments/assets/142539e7-42fa-4b08-9b62-5585f10e0568)
-
-### Video Preview
-
-[video.webm](https://github.com/user-attachments/assets/e9385092-a9bc-493d-bb8c-4478d0281a42)
 
 
