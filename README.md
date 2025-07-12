@@ -48,7 +48,7 @@ chmod +x setup.sh
 
 ## Note about of ROFI
 
-- Rofi real view
+### Rofi real view
 
 <img width="957" height="429" alt="satty-2025-07-12_Jul-07" src="https://github.com/user-attachments/assets/a17bb7cc-6d43-4bac-866d-f328f951083e" />
 
