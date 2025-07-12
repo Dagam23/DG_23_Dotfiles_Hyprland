@@ -63,7 +63,7 @@ done
 
 echo -e "${GREEN}==> Creando carpetas necesarias...${RESET}"
 
-mkdir ~/.config/waybar/
+mkdir ~/.config/waybar/ ~/.config/hypr/
 mkdir ~/Pictures 
 mkdir ~/Scripts
 
@@ -72,7 +72,7 @@ echo -e "${GREEN}==> Moviendo Archivos Y Descoprimineto Fuentes...${RESET}"
 unzip $DIR/fonts/Agave.zip -d ~/.local/share/fonts
 unzip $DIR/fonts/JetBrainsMono-2.304.zip -d ~/.local/share/fonts
 
-cp $DIR/Hyprland/hyprland.conf ~/.config/hypr/hyprland.conf
+cp $DIR/Hyprland/hyprland.conf ~/.config/hypr/
 cp $DIR/waybar/config.jsonc ~/.config/waybar
 cp $DIR/waybar/style.css ~/.config/waybar
 
