@@ -1,5 +1,6 @@
 # Requirements
 - Hyprland
+- git
 - Waypaper
 - Firefox # This is remplazed for your browser
 - Nautilus # This is remplazed for your files
@@ -11,7 +12,15 @@
 - Swaync
 - Satty
 # Use
-To use these configurations just search for your configurations and replace them with the files found in the git hub.
+What is needed is to clone the repository
+. You need install git on Fedora is "sudo dnf install git -y"
+. Clone the repository
+$ git clone 
+. Permission to install 
+$ cd DG_23_Dotfiles_Hyprland
+$ ./DG_23_Dotfiles_Hyprland/config/setup.sh 
+. Reboot
+Happy :)
 # View
 ## Image Preview
 ![1751487048_grim](https://github.com/user-attachments/assets/142539e7-42fa-4b08-9b62-5585f10e0568)
