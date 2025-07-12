@@ -29,7 +29,8 @@
     	"custom/launcher":{
 		"tooltip": false,
 	 	"format": "",
-	     	"on-click":"$HOME/.config/rofi/launchers/type-5/launcher.sh",
+	     	//"on-click":"$HOME/.config/rofi/launchers/type-5/launcher.sh",
+		"on-click":"rofi -show drun",
 		"on-click-right": "killall rofi"
     	},
 
