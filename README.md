@@ -13,16 +13,21 @@
 - Satty
 # Use
 What is needed is to clone the repository
-. You need install git on Fedora is "sudo dnf install git -y"  
+. You need install git on Fedora is   
+
+"sudo dnf install git -y"  
 
 . Clone the repository  
 
 $ git clone https://github.com/Dagam23/DG_23_Dotfiles_Hyprland  
 
-. Permission to install 
+. Permission to install  
+
 $ cd DG_23_Dotfiles_Hyprland
-$ ./DG_23_Dotfiles_Hyprland/config/setup.sh 
-. Reboot
+$ ./DG_23_Dotfiles_Hyprland/config/setup.sh   
+
+. Reboot  
+
 Happy :)
 # View
 ## Image Preview
