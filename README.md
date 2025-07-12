@@ -1,4 +1,6 @@
-# Requirements
+# IMPORTANTE FOR THIS MOMENT THE SCRIPT IS ONLY AVALAIBLE ON FEDORA
+
+## Requirements
 - Hyprland
 - git
 - Waypaper
@@ -11,7 +13,7 @@
 - Grim, Slurp
 - Swaync
 - Satty
-# Use
+## Use
 What is needed is to clone the repository
 . You need install git on Fedora is  
 
@@ -33,10 +35,10 @@ cd DG_23_Dotfiles_Hyprland
 
 Be Happy :)  
 
-# View
-## Image Preview
+## View
+### Image Preview
 ![1751487048_grim](https://github.com/user-attachments/assets/142539e7-42fa-4b08-9b62-5585f10e0568)
-## Video Preview
+### Video Preview
 [video.webm](https://github.com/user-attachments/assets/e9385092-a9bc-493d-bb8c-4478d0281a42)
 
 
