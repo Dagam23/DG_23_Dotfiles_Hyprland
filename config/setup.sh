@@ -66,7 +66,7 @@ done
 
 echo -e "${GREEN}==> Creando carpetas necesarias...${RESET}"
 
-mkdir ~/.config/waybar/ ~/.config/hypr/
+mkdir ~/.config/waybar/ ~/.config/hypr/ ~/.config/kitty
 mkdir ~/Pictures 
 mkdir ~/Scripts
 
@@ -78,6 +78,7 @@ unzip $DIR/fonts/JetBrainsMono-2.304.zip -d ~/.local/share/fonts
 cp $DIR/Hyprland/hyprland.conf ~/.config/hypr/
 cp $DIR/waybar/config.jsonc ~/.config/waybar
 cp $DIR/waybar/style.css ~/.config/waybar
+cp $DIR/kitty/kitty.conf  ~/.config/kitty
 
 cp -r $DIR/Wallpapers ~/Pictures
 cp -r $DIR/Icons ~/Pictures
