@@ -11,7 +11,7 @@
 - Grim, Slurp
 - Swaync
 - Satty
-# Use`sudo dnf install rofi`
+# Use
 What is needed is to clone the repository
 . You need install git on Fedora is  
 
@@ -20,14 +20,15 @@ What is needed is to clone the repository
 - Clone the repository  
 
 ```bash
-$ git clone https://github.com/Dagam23/DG_23_Dotfiles_Hyprland  
+git clone https://github.com/Dagam23/DG_23_Dotfiles_Hyprland  
+```
+- Permission to install
+  
+```bash
+cd DG_23_Dotfiles_Hyprland  
+./DG_23_Dotfiles_Hyprland/config/setup.sh
 
-- Permission to install  
-
-$ cd DG_23_Dotfiles_Hyprland  
-
-$ ./DG_23_Dotfiles_Hyprland/config/setup.sh   
-
+```
 - Reboot  
 
 Be Happy :)  
