@@ -17,19 +17,20 @@ What is needed is to clone the repository
 
 "sudo dnf install git -y"  
 
-. Clone the repository  
+- Clone the repository  
 
 $ git clone https://github.com/Dagam23/DG_23_Dotfiles_Hyprland  
 
-. Permission to install  
+- Permission to install  
 
 $ cd DG_23_Dotfiles_Hyprland  
 
 $ ./DG_23_Dotfiles_Hyprland/config/setup.sh   
 
-. Reboot  
+- Reboot  
 
-Happy :)
+Be Happy :)  
+
 # View
 ## Image Preview
 ![1751487048_grim](https://github.com/user-attachments/assets/142539e7-42fa-4b08-9b62-5585f10e0568)
