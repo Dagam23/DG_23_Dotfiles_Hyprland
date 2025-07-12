@@ -40,6 +40,9 @@ REQUIRED_PACKAGES=(
   swaync
   cmatrix
   rofi
+  nm-applet
+  nm-connection-editor
+  blueman-manager
 )
 
 echo -e "${GREEN}==> Verificando e instalando dependencias...${RESET}"
