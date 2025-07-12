@@ -28,8 +28,9 @@ git clone https://github.com/Dagam23/DG_23_Dotfiles_Hyprland
 - Permission to install
   
 ```bash
-cd DG_23_Dotfiles_Hyprland  
-./DG_23_Dotfiles_Hyprland/config/setup.sh
+cd DG_23_Dotfiles_Hyprland/config
+chmod +x setup.sh
+.setup.sh
 
 ```
 - Reboot  
