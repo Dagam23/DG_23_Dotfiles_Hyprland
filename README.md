@@ -44,7 +44,10 @@ chmod +x setup.sh
 ```
 - Reboot  
 
-Be Happy :)  
+# Be Happy :)  
+
+## Note
+
 
 
 
