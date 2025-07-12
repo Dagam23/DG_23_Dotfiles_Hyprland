@@ -1,5 +1,5 @@
 # Requirements
-- Sway / Hyprland
+- Hyprland
 - Waypaper
 - Firefox # This is remplazed for your browser
 - Nautilus # This is remplazed for your files
