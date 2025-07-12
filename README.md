@@ -52,7 +52,7 @@ chmod +x setup.sh
 
 <img width="957" height="429" alt="satty-2025-07-12_Jul-07" src="https://github.com/user-attachments/assets/a17bb7cc-6d43-4bac-866d-f328f951083e" />
 
-### To use a rofi similar to the one in the visualization follow the steps of [rofi](https://github.com/adi1090x/rofi).
+### To use a rofi similar to the one in the visualization follow the steps of [ROFI](https://github.com/adi1090x/rofi).
 
 
 
